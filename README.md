@@ -23,8 +23,8 @@ This happens with scala 2.13.6 and 2.12.4 both.
 [info] set current project to testwarning (in build file:/home/danarmak/test/scala-testwarning-repro/)
 [info] Executing in batch mode. For better performance use sbt's shell
 [info] compiling 1 Scala source to /home/danarmak/test/scala-testwarning-repro/target/scala-2.13/classes ...
-[error] /home/danarmak/test/scala-testwarning-repro/src/main/scala/testwarning/Tester.scala:6:13: fruitless type test: a value of type testwarning.Trait1 cannot also be a testwarning.Trait3
-[error]     case z: Trait3 => "Also Trait3"
+[error] /home/danarmak/test/scala-testwarning-repro/src/main/scala/testwarning/Tester.scala:5:13: fruitless type test: a value of type testwarning.Trait1 cannot also be a testwarning.Trait2
+[error]     case y: Trait2 => "Also Trait2"
 [error]             ^
 [error] one error found
 [error] (Compile / compileIncremental) Compilation failed
